@@ -1,0 +1,14 @@
+int main() {
+    int N, P;
+    int result = 1;
+
+    scanf("%d %d", &N, &P);
+
+    for (int i = 1; i <= P; i++) {
+        result = result * N;
+    }
+
+    printf("%d", result);
+
+    return 0;
+}
