@@ -4,12 +4,13 @@ void swap(int a,int b) {
     a=b;
     b=temp;
     printf("swap is done\n",a,b);
+    printf("after swap %d %d\n",a,b);
 }
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     printf("before swap %d %d\n",a,b);
     swap(a,b);
-    printf("after swap %d %d\n",a,b);
+    
     return 0;
 }
