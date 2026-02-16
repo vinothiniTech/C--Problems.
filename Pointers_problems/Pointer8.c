@@ -10,7 +10,7 @@ int main() {
     while(*p1 != '\0')
         p1++;
 
-    p1--;  // remove newline
+    p1--;  
 
     while(*p2 != '\0') {
         *p1 = *p2;
@@ -24,3 +24,4 @@ int main() {
 
     return 0;
 }
+
