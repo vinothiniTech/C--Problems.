@@ -11,21 +11,22 @@ int main() {
         end++;
     end--;
 
-    int flag = 1;
+    int count = 1;
 
     while(start < end) {
         if(*start != *end) {
-            flag = 0;
+            count = 0;
             break;
         }
         start++;
         end--;
     }
 
-    if(flag)
+    if(count)
         printf("YES");
     else
         printf("NO");
 
     return 0;
 }
+
